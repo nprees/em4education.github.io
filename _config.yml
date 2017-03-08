@@ -1,0 +1,8 @@
+# Site settings
+title: Emily Rees for Education Officer
+description: "Emily Rees is running to be your next Education Offer Swansea University"
+baseurl: "http://www.em4education.com"
+url: "http://www.em4education.com"
+
+# Build settings
+markdown: kramdown
