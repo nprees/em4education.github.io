@@ -55,7 +55,9 @@ $theme-dark: #222;
 // END - affix override.
 
 body {
-	background: url('../img/header.jpg') fixed;
+	background-image: url('../img/header.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif !important;
 }
 
