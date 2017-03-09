@@ -9,6 +9,10 @@
 .navbar-default .nav > li > a, .navbar-default .nav > li > a:focus {
   color: #222 !important; }
 
+body {
+  background: url("../img/header.jpg") fixed;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif !important; }
+
 .re-working-with {
   display: block;
   margin: auto; }
@@ -24,9 +28,23 @@
   .facebook-bar:hover .bg-facebook {
     background-color: #2f4779; }
 
+.btn.btn-primary.vote-button-header {
+  width: 150px;
+  background-color: yellow;
+  color: black; }
+  .btn.btn-primary.vote-button-header:hover {
+    background-color: white; }
+
 header .header-content .header-content-inner p {
   color: #FFF !important;
   font-weight: 400 !important; }
+
+#videos .video-description {
+  margin-top: 33%; }
+@media screen and (max-width: 991px) {
+  #videos .video-description {
+    margin-top: 0%;
+    padding: 15px; } }
 
 #manifesto {
   padding-bottom: 100px; }
@@ -52,8 +70,7 @@ header .header-content .header-content-inner p {
 
 #vote {
   user-select: none;
-  padding-top: 12%;
-  padding-bottom: 12%; }
+  padding-top: 50px; }
   #vote .fa-times {
     color: red !important; }
   #vote .fa-square-o {
@@ -206,8 +223,7 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  background-position: center;
-  background-image: url("../img/header.jpg");
+  background: rgba(255, 255, 255, 0);
   text-align: center;
   color: white; }
   header .header-content {

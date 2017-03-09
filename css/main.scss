@@ -4,10 +4,10 @@
 @charset "utf-8";
 
 // Example Defaults
-// $base-font-family: Helvetica, Arial, sans-serif;
-// $base-font-size:   16px;
-// $small-font-size:  $base-font-size * 0.875;
-// $base-line-height: 1.5;
+$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
 
 // $spacing-unit:     30px;
 
@@ -54,6 +54,11 @@ $theme-dark: #222;
 }
 // END - affix override.
 
+body {
+	background: url('../img/header.jpg') fixed;
+	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif !important;
+}
+
 // aside
 .re-working-with {
 	display:block;
@@ -78,10 +83,33 @@ $theme-dark: #222;
 	}
 }
 
+.btn.btn-primary.vote-button-header {
+	width: 150px;
+	background-color: yellow;
+	color: black;
+
+	&:hover {
+		background-color: white;
+	}
+}
+
 // header
 header .header-content .header-content-inner p {
 	color: #FFF !important;
 	font-weight: 400 !important;
+}
+
+#videos {
+	.video-description {
+		margin-top:33%;
+	}
+
+	@media screen and (max-width: 991px) {
+   		.video-description {
+   			margin-top:0%;
+   			padding:15px;
+   		}
+	}
 }
 
 // manifesto
@@ -127,8 +155,7 @@ header .header-content .header-content-inner p {
 // vote
 #vote {
 	user-select: none;
-	padding-top:12%;
-	padding-bottom:12%;
+	padding-top:50px;
 
 	.fa-times {
 		color: red !important;
