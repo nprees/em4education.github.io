@@ -55,7 +55,7 @@ header .header-content .header-content-inner p {
 
 #videos .video-description {
   margin-top: 33%; }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 767px) {
   #videos .video-description {
     margin-top: 0%;
     padding: 15px; } }
@@ -64,10 +64,6 @@ header .header-content .header-content-inner p {
   padding-bottom: 100px; }
   #manifesto p {
     color: #a5a5a5; }
-  #manifesto .manifesto-box {
-    cursor: pointer; }
-    #manifesto .manifesto-box i:hover {
-      opacity: 0.4; }
 
 #recognition p {
   font-weight: 200;
