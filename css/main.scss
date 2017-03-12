@@ -119,7 +119,7 @@ header .header-content .header-content-inner p {
 		margin-top:33%;
 	}
 
-	@media screen and (max-width: 991px) {
+	@media screen and (max-width: 767px) {
    		.video-description {
    			margin-top:0%;
    			padding:15px;
@@ -133,14 +133,6 @@ header .header-content .header-content-inner p {
 
 	p {
 		color: #a5a5a5;
-	}
-
-	.manifesto-box {
-		cursor: pointer;
-		
-		i:hover {
-			opacity: 0.4;
-		}
 	}
 }
 
